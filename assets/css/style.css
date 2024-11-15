@@ -1,0 +1,304 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url('/assets/img/main-bg.jpg'); /* Add your main background image path here */
+    background-size: cover;
+    background-position: center;
+}
+/* Hero Section Background */
+.hero-section {
+    position: relative;
+    background-image: url('/assets/img/index\ main.jpg'); /* Add your main background image path here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* Overlay for hero section image */
+.hero-overlay {
+    background-image: url('img/background.jpg'); /* Add your hero section overlay image path here */
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    left: 80px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    color: white;
+}
+
+.navbar-brand, .nav-link, .cart {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+/* Navbar Hover Effect */
+.nav-link:hover {
+    background-color: #e0a800;
+}
+.nav-linker{
+
+    background-color: #e0a800;
+    color: white;
+    border: none;
+}
+
+.nav-linker:hover {
+    background-color: #e0a800;
+    
+}
+
+/* Play Button Style */
+.play-btn {
+    background-color: #ffc107;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.play-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Featured Section */
+.featured-section {
+    position: relative;
+    background-image: url('img/backbackground.jpg'); /* Add your main background image path here */
+    background-size: cover;
+    background-position: center;
+    background-color: #222;
+    padding: 50px 0;
+    color: white;
+    text-align: left;
+}
+
+.featured-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffc107;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+/* Platform Card Styling */
+.platform-card {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.platform-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.platform-card:hover {
+    transform: scale(1.05);
+}
+ /* Section Styling */
+ .easy-steps-section {
+    position: relative;
+    background-image: url('img/backbackground.jpg'); /* Add your main background image path here */
+    background-size: cover;
+    background-position: center;
+    
+    background-color: #111;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.easy-steps-title {
+
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.easy-steps-subtitle {
+    text-align: start;
+    font-size: 1.3em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Step Card Styling */
+.step-card {
+
+    text-align: start;
+    background-color:#1A1E28;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 55vh;
+    color: #ddd;
+    height: 100%;
+}
+
+.step-number {
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #444;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.step-card hr {
+    border-top: 1px solid #555;
+    margin: 15px 0;
+}
+
+.deposit-btn {
+    margin-top: 20px;
+    display: flex;
+    
+    text-align: start;
+    background-color: #ffc107;
+    color: #222;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
+
+.deposit-btn:hover {
+    background-color: #e0a800;
+    color: #111;
+}
+.easystep{
+    height: 100vh;
+    
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:#1A1E28;
+    color:white
+}
+/* Panda Section */
+.panda-section {
+    
+    color: #D8B866;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.panda-logo {
+    width: 400px;
+    height: 450px;
+    
+}
+.feature-list {
+    margin-top: 20px;
+    margin-left: 100px;
+    list-style: none;
+    padding: 0;
+}
+.feature-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.feature-list li::before {
+    content: '●';
+    color:#4B5365;
+    margin-right: 10px;
+    font-size: 30px;
+    
+}
+.live-support {
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.live-support img {
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.pandain{
+    position: relative;
+    background-image: url('img/backbackground.jpg'); /* Add your main background image path here */
+    background-size: cover;
+    background-position: center;
+
+}
+.mainpanda{
+    margin-left: 100px;
+    margin-top: 60px;
+    
+    
+}
+.mypanda{
+    margin-top: 60px;
+    background-color: transparent;
+}
+@media (max-width: 768px) {
+    .hero-overlay {
+        left: 0;
+        padding-left: 20px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    .hero-overlay h1 {
+        font-size: 1.5em;
+    }
+    .play-btn {
+        width: 100%;
+    }
+    .featured-title {
+        text-align: center;
+    }
+    .step-card {
+        width: 100%;
+    }
+    .deposit-btn {
+        width: 100%;
+    }
+    .panda-logo {
+        width: 100%;
+        height: auto;
+    }
+    .feature-list {
+        margin-left: 0;
+    }
+    .live-support {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

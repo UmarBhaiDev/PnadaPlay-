@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-site {
+    background-image: url("/assets/img/main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
+/* Panda image styling */
+.panda img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+/* -----------------footer----------------- */
+.footer {
+    font-size: 0.9rem;
+}
+
+.footer a:hover {
+    color: #333;
+}
+
+.every {
+    margin-top: 70px;
+}
+
+
+
+.footer hr {
+    border-top: 2px solid #b9b9b9;
+}
+
+ 
+
+/* -----------------Responsive Design----------------- */
+@media (max-width: 1200px) {
+    .panda img {
+        height: 300px;
+    }
+    .footer {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .panda img {
+        height: 250px;
+    }
+    .footer {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .panda img {
+        height: 200px;
+    }
+    .footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .panda img {
+        height: 150px;
+    }
+    .footer {
+        font-size: 1.3rem;
+    }
+    .every {
+        margin-top: 50px;
+    }
+}
