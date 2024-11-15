@@ -7,6 +7,7 @@ body {
     background-image: url('/assets/img/main-bg.jpg'); /* Add your main background image path here */
     background-size: cover;
     background-position: center;
+    text-decoration: none;
 }
 /* Hero Section Background */
 .hero-section {
@@ -35,7 +36,10 @@ body {
     padding-left: 100px;
     color: white;
 }
-
+.navbar-nav a{
+    text-decoration: none;
+    
+}
 .navbar-brand, .nav-link, .cart {
     color: white !important;
     transition: color 0.3s ease;
