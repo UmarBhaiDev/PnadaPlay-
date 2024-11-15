@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-image{
+    background-image: url(/assets/img/bt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
+
+
+
+.button-styling{
+    background-color: #e2ac27 !important;
+}
+.price-color{
+    color: #C5C9D2;
+}

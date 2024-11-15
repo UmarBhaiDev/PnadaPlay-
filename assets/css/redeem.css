@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-image{
+    background-image: url(/assets/img/bt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+
+
+  .small-input {
+    width: 700px; 
+    height: 43px; 
+  }
+  @media (max-width: 475px){
+    .small-input {
+        width: 300px; 
+        height: 40px; 
+      }
+  }
+
+  .text-color{
+    color: #dcdcdd;
+  }
+
+  .button-color{
+    background-color: #cc9800 !important;
+  }
+  .form-check-input:checked {
+    background-color: #ffc107; 
+    border-color: #ffc107;    
+  }
