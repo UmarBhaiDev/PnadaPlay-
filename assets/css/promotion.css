@@ -44,7 +44,7 @@
 /* -----------------Responsive Design----------------- */
 @media (max-width: 1200px) {
     .panda img {
-        height: 300px;
+       height :auto;
     }
     .footer {
         font-size: 1rem;
@@ -53,7 +53,7 @@
 
 @media (max-width: 992px) {
     .panda img {
-        height: 250px;
+        height: auto;
     }
     .footer {
         font-size: 1.1rem;
@@ -62,7 +62,7 @@
 
 @media (max-width: 768px) {
     .panda img {
-        height: 200px;
+        height: auto;
     }
     .footer {
         font-size: 1.2rem;
@@ -71,7 +71,7 @@
 
 @media (max-width: 576px) {
     .panda img {
-        height: 150px;
+        height: auto;
     }
     .footer {
         font-size: 1.3rem;
