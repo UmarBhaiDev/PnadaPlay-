@@ -12,7 +12,7 @@ body {
 /* Hero Section Background */
 .hero-section {
     position: relative;
-    background-image: url('/assets/img/index\ main.jpg'); /* Add your main background image path here */
+    background-image: url('/assets/img/main-bg.jpg'); /* Add your main background image path here */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -35,6 +35,12 @@ body {
     justify-content: flex-start;
     padding-left: 100px;
     color: white;
+}
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
 }
 
 .navbar-nav a{
