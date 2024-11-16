@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/FAQs.css">
+    <title>Simple Accordion</title>
+</head>
+
+<body>
+    <div class="accordion">
+        <div class="payment">
+            <span class="">Payments</span>
+        </div>
+        <div class="accordion-item">
+
+            <div class="accordion-title" onclick="toggleAccordion(this)">
+                Payments
+            </div>
+            <div class="accordion-content">
+                <p>To deposit using the Bitcoin Lightning Network, you need a compatible Lightning wallet and follow the
+                    steps provided by your service provider.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">
+                Redeems
+            </div>
+            <div class="accordion-content">
+                <p>To request a redeem, navigate to the redeem section of your account and follow the instructions for
+                    submitting a redeem request.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-title" onclick="toggleAccordion(this)">
+                Platform Features & Login Bonuses
+            </div>
+            <div class="accordion-content">
+                <p>Golden Dragon is a platform feature offering exclusive games and bonuses.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAccordion(element) {
+            const content = element.nextElementSibling;
+            content.style.display = content.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</body>
+
+</html>
